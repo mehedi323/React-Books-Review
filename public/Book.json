@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://i.ibb.co/92ht22S/png-clipart-the-dating-playbook-for-men-a-proven-7-step-system-to-go-from-single-to-the-woman-of-you.png",
+      "review": "A deeply moving novel that explores themes of racial injustice and moral growth.",
+      "totalPages": 324,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": ["classic", "race", "justice"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "id": 2,
+      "bookName": "Who Great Gatsby",
+      "author": "George Orwell",
+      "image": "https://i.ibb.co/Mnw29GC/000278-2f79be5125b81ba93d37868a6f1ab63c-removebg-preview.png",
+      "review": "A chilling dystopian novel that delves into the dangers of totalitarianism and extreme political ideology.",
+      "totalPages": 328,
+      "rating": 4.7,
+      "category": "Dystopian",
+      "tags": ["dystopian", "political", "classic"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "id": 3,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://i.ibb.co/xJ7bmpP/AAAAQTbl-Pe-Tv-VQ5mpi-ZTmc-Ejhk-No78-DOx96-NOKWc-N1-RD3ue1-NVyh-Hs-Nx1h-NYWmz9-XK4-LXa-FZx-B0-Aaaoo.png",
+      "review": "An exploration of the American Dream and the excesses of the Jazz Age, told through the tragic story of Jay Gatsby.",
+      "totalPages": 180,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["classic", "American Dream", "tragedy"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "id": 4,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i.ibb.co/nkqPWHV/images-1-removebg-preview.png",
+      "review": "A timeless romantic novel that critiques the British class system of the early 19th century.",
+      "totalPages": 279,
+      "rating": 4.6,
+      "category": "Romance",
+      "tags": ["classic", "romance", "social commentary"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "id": 5,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://i.ibb.co/92ht22S/png-clipart-the-dating-playbook-for-men-a-proven-7-step-system-to-go-from-single-to-the-woman-of-you.png",
+      "review": "A novel that captures the teenage angst and alienation of protagonist Holden Caulfield.",
+      "totalPages": 214,
+      "rating": 4.0,
+      "category": "Fiction",
+      "tags": ["classic", "coming-of-age", "angst"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "id": 6,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://i.ibb.co/VpvJMn1/vdksofjosgdgd-7a99248de99e43a7b52b1fea9d273641-removebg-preview.png",
+      "review": "A fantastical adventure that serves as a prelude to the epic 'Lord of the Rings' trilogy.",
+      "totalPages": 310,
+      "rating": 4.7,
+      "category": "Fantasy",
+      "tags": ["fantasy", "adventure", "classic"],
+      "publisher": "George Allen & Unwin",
+      "yearOfPublishing": 1937
+    }
+  ]
+  
