@@ -1,18 +1,17 @@
-import { useLoaderData, useParams } from "react-router-dom";
-import { ToastContainer, toast } from 'react-toastify';
+import { useLoaderData, useParams } from "react-router-dom"; 
 import 'react-toastify/dist/ReactToastify.css';
+import { saveBlog } from "../../utilis";
 
 const BookDetails = () => {
 
     const books = useLoaderData();
     const { id } = useParams();
     const idInt = parseInt(id);
-    const book = books.find(book => book.id === idInt)
-    console.log(book);
+    const book = books.find(book => book.id === idInt) 
 
-    const handleReadBooks = (book) =>{
-        toast("Book ListedBook Successfully!");
-        console.log(book);
+    const handleReadBooks = (book) =>{  
+        saveBlog(book)
+        console.log(saveBlog);
     }
 
     return (
@@ -54,8 +53,7 @@ const BookDetails = () => {
                         <button className="btn font-bold bg-[#50B1C9] text-white">Wishlist</button>
                     </div>
                 </div>
-            </div>
-            <ToastContainer></ToastContainer>
+            </div> 
         </div>
     );
 };

@@ -1,12 +1,12 @@
 import { FaRegStar } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 const Book = ({ book }) => {
     const { image, id, tags, bookName, publisher, rating, category } = book
     return (
         <div>
             <Link to={`/bookdetails/${id}`}>
-                <div className="card w-96 bg-base-100 p-3 shadow-xl border-2 border-dotted border-gray-200">
+                <div className="card w-96 bg-base-100 border-2 p-4 border-gray-300  hover:bg-gray-200 active:bg-gray-200 focus:outline-none focus:ring focus:ring-violet-300 ">
                     <figure><img className="w-[250px] h-[250px] " src={image} alt="Shoes" /></figure>
                     <div className="card-body">
                         <div className="flex items-center gap-5 font-bold">
@@ -25,5 +25,6 @@ const Book = ({ book }) => {
         </div>
     );
 };
+ 
 
 export default Book;

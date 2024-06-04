@@ -2,7 +2,7 @@
 const ErrorPages = () => {
     return (
         <div>
-            <h2 className="text-4xl">Oppsss!!!</h2>
+            <h2 className="text-4xl">404</h2>
         </div>
     );
 };
